@@ -1,0 +1,7 @@
+- file abi mình phải lấy của người tạo ra smart contract, ngta ko gửi thì mình ko đc xài hàm của ngta.
+Đây là dòng mình tìm đc trên stackexchange: https://ethereum.stackexchange.com/questions/3149/how-do-you-get-a-json-file-abi-from-a-known-contract-address/26419 
+what if it's someone else's contract that's already deployed to the blockchain? You know where the contract sits (hash of it), but you don't know the abi. How can you interact with it? – 
+David
+
+@David If the author hasn't published the ABI, they may not want you to interact with it. In that case, you can try reverse engineering their code to interact with it. – 
+eth
